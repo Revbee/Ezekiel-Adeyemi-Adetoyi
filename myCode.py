@@ -7,7 +7,6 @@ import seaborn as sns
 #importing dataset and saving Data Set
 url='https://github.com/WalePhenomenon/climate_change/blob/master/fuel_ferc1.csv?raw=true'
 fuel_data = pd.read_csv(url, error_bad_lines=False)
-fuel_data = pd.read_csv(url, error_bad_lines=False)
 
 fuel_data.to_csv('fuel_data.csv', index=False)
 
